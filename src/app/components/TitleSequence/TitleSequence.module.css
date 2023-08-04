@@ -1,0 +1,60 @@
+.titlesequence {
+	grid-column: 2;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6rem;
+	font-family: var(--bayon);
+	font-size: 2.25rem;
+}
+
+.name {
+	white-space: nowrap;
+	margin-right: 12px;
+}
+
+.fadeRight {
+	width: 12px;
+	height: 100%;
+	position: absolute;
+    background-color: white;
+    z-index: 1;
+	background: linear-gradient(270deg, #FFF 17.03%, rgba(255, 255, 255, 0.00) 100%);
+	right: 0;
+}
+
+.fadeLeft {
+	width: 12px;
+	height: 100%;
+	position: absolute;
+    background-color: white;
+    z-index: 1;
+	background: linear-gradient(90deg, #FFF 17.03%, rgba(255, 255, 255, 0.00) 100%);
+	left: 0;
+}
+
+.marquee {
+	--gap: 1.5rem;
+	position: relative;
+	display: flex;
+	overflow: hidden;
+	user-select: none;
+	gap: var(--gap);
+}
+
+.marquee__content {
+	flex-shrink: 0;
+	display: flex;
+	justify-content: space-around;
+	gap: var(--gap);
+	min-width: 100%;
+	animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(calc(-100% - var(--gap)));
+	}
+}

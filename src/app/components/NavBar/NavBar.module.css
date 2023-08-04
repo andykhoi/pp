@@ -1,0 +1,35 @@
+.navbar {
+	width: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	font-family: var(--helvetiva_neue);
+	color: #FFF;
+	padding: 12px;
+	background-color: #FF1F1F;
+	font-size: 1.375rem;
+	font-weight: 300;
+	bottom: 0
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+}
+
+.navbarspacer {
+	width: 100%;
+	height: calc(57px + 12px);
+}
+
+@media screen and (min-width: 900px) {
+	.navbar {
+		font-size: 1.4375rem;
+		background-color: transparent;
+		padding: 36px 40px;
+		
+	}
+	.navbar a {
+		color: black;
+	}
+}
