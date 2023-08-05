@@ -7,7 +7,7 @@
 // import { Text } from './components/Text'
 // import { Spacer } from './components/Spacer'
 // import Link from 'next/link'
-import { GridLayout } from './components/GridLayout'
+import { GridLayout } from './components/Grids'
 import { TitleSequence } from './components/TitleSequence'
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
 	<GridLayout
 		// rowTemplate='100%'
 		height='100%'
-	> 
+	>
 		<TitleSequence />
 	</GridLayout>
   )

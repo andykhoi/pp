@@ -1,4 +1,4 @@
-import { GridLayout } from '../components/GridLayout'
+import { GridLayout } from '../components/Grids'
 import { VideoPreview } from '../components/VideoPreview'
 
 export default function Work() {

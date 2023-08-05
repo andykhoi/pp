@@ -1,0 +1,11 @@
+.projectnav {
+	display: flex;
+	grid-column: 2;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.projectnav a {
+	color: black;
+	text-decoration: underline;
+}

@@ -1,0 +1,73 @@
+.projectheader {
+	/* margin-top: 20px; */
+	display: flex;
+	flex-direction: column;
+	grid-column: 2;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #000000;
+}
+
+.projecttitle  {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	font-size: 1.75rem;
+	font-weight: 800;
+	font-family: var(--be_vietnam_pro);
+}
+
+.subtitle {
+	display: flex;
+	margin-top: 24px;
+	font-family: var(--helvetica_neue);
+	font-size: 1.25rem;
+	font-weight: 800;
+}
+
+.marquee {
+	margin-left: 8px;
+	--gap: 1.25rem;
+	position: relative;
+	display: flex;
+	overflow: hidden;
+	user-select: none;
+	gap: var(--gap);
+}
+
+.marquee__content {
+	flex-shrink: 0;
+	display: flex;
+	justify-content: space-around;
+	gap: var(--gap);
+	min-width: 100%;
+	animation: scroll 15s linear infinite;
+}
+
+.fadeRight {
+	width: 12px;
+	height: 100%;
+	position: absolute;
+    background-color: white;
+    z-index: 1;
+	background: linear-gradient(270deg, #FFF 17.03%, rgba(255, 255, 255, 0.00) 100%);
+	right: 0;
+}
+
+.fadeLeft {
+	width: 12px;
+	height: 100%;
+	position: absolute;
+    background-color: white;
+    z-index: 1;
+	background: linear-gradient(90deg, #FFF 17.03%, rgba(255, 255, 255, 0.00) 100%);
+	left: 0;
+}
+
+@keyframes scroll {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(calc(-100% - var(--gap)));
+	}
+}

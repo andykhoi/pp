@@ -7,17 +7,18 @@ import Link from 'next/link'
 
 interface VideoPreviewProps {
 	src: string,
-	link: string
+	link?: string
 	// link?: {
 	// 	href: string,
 	// 	name: string
 	// },
-
 }
+
+// update this to return a placeholder thumbnail video -- get the first screen of each video (redo some of the video clips)
 
 export const VideoPreview: FC<VideoPreviewProps> = ({
 	src,
-	link
+	link = null
 }) => {
 	const [playing, setPlaying] = useState<boolean>(true)
 	const [mounted, setMounted] = useState<boolean>(false)
@@ -32,13 +33,22 @@ export const VideoPreview: FC<VideoPreviewProps> = ({
 	
 	return (
 		<div className={styles.videoPreview}>
-			<Link href={link}>
+			{
+				link ? 
+				<Link href={link}>
+					<div
+						// onClick={() => togglePlay()}
+					>
+						<ReactPlayer autoplay muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
+					</div>
+				</Link>
+				:
 				<div
 					// onClick={() => togglePlay()}
 				>
 					<ReactPlayer autoplay muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
 				</div>
-			</Link>
+			}
 			{/* {
 				link ? 
 				<div className={styles.controls}>

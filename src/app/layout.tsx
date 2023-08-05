@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { GridLayout } from './components/GridLayout/GridLayout'
+import { GridLayout } from './components/Grids'
 // import { Be_Vietnam_Pro } from 'next/font/google'
 import './global.css'
 
@@ -13,7 +13,7 @@ import localFont from 'next/font/local'
 import { NavBar } from './components/NavBar'
 
 export const be_vietnam_pro = Be_Vietnam_Pro({
-	weight: ["300", "400", "500", "600"],
+	weight: ["300", "400", "500", "600", "700", "800"],
 	variable: '--be_vietnam_pro',
 	subsets: ['latin']
 })
@@ -34,6 +34,11 @@ export const helvetica_neue = localFont({
 		{
 			path: './fonts/HelveticaNeue-regular.woff2',
 			weight: '400',
+			style: 'normal'
+		},
+		{
+			path: './fonts/HelveticaNeue-bold.woff2',
+			weight: '800',
 			style: 'normal'
 		},
 	],

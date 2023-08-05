@@ -17,6 +17,10 @@
 	color: white;
 }
 
+.navbar a:hover {
+	text-decoration: underline;
+}
+
 .navbarspacer {
 	width: 100%;
 	height: calc(57px + 12px);
@@ -31,5 +35,9 @@
 	}
 	.navbar a {
 		color: black;
+	}
+	
+	.navbarspacer {
+		height: 24px;
 	}
 }

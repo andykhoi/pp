@@ -1,0 +1,12 @@
+.infogrid {
+	composes: gridlayout from './GridLayout.module.css';
+	padding: 32px 0px 0px 0px;
+}
+
+@media screen and (min-width: 900px) {
+	.infogrid {
+		height: 100%;
+		padding: 0px;
+		align-items: center;
+	}
+}

@@ -1,5 +1,5 @@
 .videoPreview {
-	margin-top: 12px;
+	/* margin-top: 12px; */
 	aspect-ratio: 1 / 1;
 	width: 100%;
 	grid-column: 2;
@@ -63,7 +63,7 @@
 }
 
 @media screen and (min-width: 900px) {
-	.videoPreview {
+	/* .videoPreview {
 		margin-top: 28px;
-	}
+	} */
 }
