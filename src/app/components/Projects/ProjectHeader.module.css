@@ -26,7 +26,7 @@
 
 .marquee {
 	margin-left: 8px;
-	--gap: 1.25rem;
+	--gap: 1.15rem;
 	position: relative;
 	display: flex;
 	overflow: hidden;
@@ -40,7 +40,7 @@
 	justify-content: space-around;
 	gap: var(--gap);
 	min-width: 100%;
-	animation: scroll 15s linear infinite;
+	animation: scroll 16s linear infinite;
 }
 
 .fadeRight {

@@ -6,22 +6,22 @@ interface ProjectHeaderProps {
 	title: string
 	software: string[]
 	thumbnail?: string
-	alt: string
+	alt?: string
 }
 
 export const ProjectHeader: FC<ProjectHeaderProps> = ({
 	title,
 	software,
 	thumbnail = null,
-	alt
+	alt = null
 }) => {
 	return (
 		<div className={styles.projectheader}>
 			<div className={styles.projecttitle}>
 				{ 
-					thumbnail && 
+					thumbnail && alt && 
 					<div>
-						<Image src={thumbnail} height={70} alt={alt} width={70} />
+						<Image quality={100} src={thumbnail} height={70} alt={alt} width={70} style={{objectFit: 'contain'}}/>
 					</div>
 				}
 				<div>{ title }</div>
@@ -36,7 +36,7 @@ export const ProjectHeader: FC<ProjectHeaderProps> = ({
 							software.map(name => 
 								<>
 									<div key={name}>{ `${name}` }</div>
-									<div>|</div>
+									<div>/</div>
 								</>
 						)
 						}
@@ -46,7 +46,7 @@ export const ProjectHeader: FC<ProjectHeaderProps> = ({
 							software.map(name => 
 								<>
 									<div key={name}>{ `${name}` }</div>
-									<div>|</div>
+									<div>/</div>
 								</>
 							)
 						}

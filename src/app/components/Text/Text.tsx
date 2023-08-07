@@ -16,7 +16,8 @@ export const Text: FC<TextProps> = ({
 }) => {
 	return (
 		<div className={styles.text} style={{ color, fontWeight, margin }}>
-			<p>{ children }</p>
+			{/* <p>{ children }</p> */}
+			{ children }
 		</div>
 	)
 }
