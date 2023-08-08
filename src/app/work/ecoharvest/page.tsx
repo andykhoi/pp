@@ -12,7 +12,7 @@ export default function Mag() {
 			<Spacer height='20px' breakpointHeight='20px'/>
 			<ProjectHeader title='Ecoharvest' thumbnail='/ecoharvest.png' alt='Logo for Ecoharvest' software={[ 'React', 'NextJS', 'Typescript', 'Hasura', 'GraphQL', 'Mapbox', 'Clerk']}/>
 			<Spacer height='32px' breakpointHeight='56px'/>
-			<VideoPreview src='/ecoharvest.mp4'/>
+			<VideoPreview src='/ecoharvest.mp4' poster='/ecoharvest_poster.png'/>
 			<Spacer height='28px' breakpointHeight='32px' />
 			<Text>
 				Ecoharvest is a biodiversity tracker for ranchers to utilize as a log to apply for government environmental credits. Pin pointing where biodiversity exists on their land while learning about the biodiversity that exists with a specialized data set of plants, animals, and insects.
