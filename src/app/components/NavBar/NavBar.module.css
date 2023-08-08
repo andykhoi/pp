@@ -4,6 +4,7 @@
 	display: flex;
 	justify-content: space-between;
 	font-family: var(--helvetiva_neue);
+	padding-bottom: env(safe-area-inset-bottom);
 	color: #FFF;
 	padding: 12px;
 	background-color: #FF1F1F;

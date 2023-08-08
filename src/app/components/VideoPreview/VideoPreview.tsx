@@ -7,7 +7,8 @@ import Link from 'next/link'
 
 interface VideoPreviewProps {
 	src: string | string[],
-	link?: string
+	link?: string,
+	poster?: string,
 	// link?: {
 	// 	href: string,
 	// 	name: string
@@ -18,7 +19,8 @@ interface VideoPreviewProps {
 
 export const VideoPreview: FC<VideoPreviewProps> = ({
 	src,
-	link = null
+	link = null,
+	poster
 }) => {
 	const [playing, setPlaying] = useState<boolean>(true)
 	const [mounted, setMounted] = useState<boolean>(false)
@@ -39,14 +41,14 @@ export const VideoPreview: FC<VideoPreviewProps> = ({
 					<div
 						// onClick={() => togglePlay()}
 					>
-						<ReactPlayer autoplay playsinline muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
+						<ReactPlayer config={{ attributes: { poster } }} autoplay playsinline muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
 					</div>
 				</Link>
 				:
 				<div
 					// onClick={() => togglePlay()}
 				>
-					<ReactPlayer autoplay playsinline muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
+					<ReactPlayer config={{ attributes: { poster } }} autoplay playsinline muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
 				</div>
 			}
 			{/* {

@@ -12,7 +12,7 @@ export default function Mag() {
 			<Spacer height='20px' breakpointHeight='20px'/>
 			<ProjectHeader thumbnail='/wondermapper.png' alt='Wonder Mapper logo' title='Wonder Mapper' software={[ 'React', 'Sanity', 'mapbox-gl-js', 'Typescript']}/>
 			<Spacer height='32px' breakpointHeight='56px'/>
-			<VideoPreview src='/wondermapper.mp4'/>
+			<VideoPreview src='/wondermapper.mp4' poster='/wondermapper_poster.png'/>
 			<Spacer height='28px' breakpointHeight='32px' />
 			<Text>
 				Wonder California is an interactive map showcasing the beautiful, diverse landscapes that exist in California. Scenes shot by Adam Ouellette and John Vu.

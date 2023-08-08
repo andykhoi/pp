@@ -12,7 +12,7 @@ export default function Mag() {
 			<Spacer height='20px' breakpointHeight='20px'/>
 			<ProjectHeader title='Andy Mag' thumbnail='/andymag.png' alt='Logo for Andy Mag' software={[ 'React', 'Typescript', 'NextJS', 'Hasura', 'GraphQL', 'AWS Lambda', 'Clerk', 'Figma']}/>
 			<Spacer height='32px' breakpointHeight='56px'/>
-			<VideoPreview src='/kabu.mp4'/>
+			<VideoPreview src='/kabu.mp4' poster='/kabu_poster.png'/>
 			<Spacer height='28px' breakpointHeight='32px' />
 			<Text>
 				Andy Mag is a digital magazine creating a space for storytellers of all kinds. <em>Magnolia</em> is the name of our first issue, we have 5 articles: <br/><br/> 

@@ -8,15 +8,15 @@ export default function Work() {
 			{/* <Spacer height='12px' breakpointHeight='28px' />
 			<ProjectNav back={'/'} /> */}
 			<Spacer height='12px' breakpointHeight='28px' />
-			<VideoPreview src='/kabu.mp4' link='/work/mag'/>
+			<VideoPreview src='/kabu.mp4' link='/work/mag' poster='/kabu_poster.png'/>
 			<Spacer height='12px' breakpointHeight='28px' />
-			<VideoPreview src='/wondermapper.mp4' link='/work/wondermapper'/>
+			<VideoPreview src='/wondermapper.mp4' link='/work/wondermapper' poster='/wondermapper_poster.png'/>
 			<Spacer height='12px' breakpointHeight='28px' />
-			<VideoPreview src='/taiki.mp4' link='/work/taiki-friends'/>
+			<VideoPreview src='/taiki.mp4' link='/work/taiki-friends' poster='/taiki_poster.png'/>
 			<Spacer height='12px' breakpointHeight='28px' />
-			<VideoPreview src='/ptpt.mp4' link='/work/ptpt'/>
+			<VideoPreview src='/ptpt.mp4' link='/work/ptpt' poster='/ptpt_poster.png'/>
 			<Spacer height='12px' breakpointHeight='28px' />
-			<VideoPreview src='/ecoharvest.mp4' link='/work/ecoharvest'/>
+			<VideoPreview src='/ecoharvest.mp4' link='/work/ecoharvest' poster='/ecoharvest_poster.png'/>
 			<Spacer height='69px' breakpointHeight='28px' />
 		</GridLayout>
 	)
