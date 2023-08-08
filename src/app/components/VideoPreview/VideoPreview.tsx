@@ -6,7 +6,7 @@ import styles from './VideoPreview.module.css'
 import Link from 'next/link'
 
 interface VideoPreviewProps {
-	src: string,
+	src: string | string[],
 	link?: string
 	// link?: {
 	// 	href: string,
@@ -39,14 +39,14 @@ export const VideoPreview: FC<VideoPreviewProps> = ({
 					<div
 						// onClick={() => togglePlay()}
 					>
-						<ReactPlayer autoplay muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
+						<ReactPlayer autoplay playsInline muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
 					</div>
 				</Link>
 				:
 				<div
 					// onClick={() => togglePlay()}
 				>
-					<ReactPlayer autoplay muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
+					<ReactPlayer autoplay playsInline muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
 				</div>
 			}
 			{/* {
