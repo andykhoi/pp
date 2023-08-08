@@ -39,14 +39,14 @@ export const VideoPreview: FC<VideoPreviewProps> = ({
 					<div
 						// onClick={() => togglePlay()}
 					>
-						<ReactPlayer autoplay playsInline muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
+						<ReactPlayer autoplay playsinline muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
 					</div>
 				</Link>
 				:
 				<div
 					// onClick={() => togglePlay()}
 				>
-					<ReactPlayer autoplay playsInline muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
+					<ReactPlayer autoplay playsinline muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
 				</div>
 			}
 			{/* {
