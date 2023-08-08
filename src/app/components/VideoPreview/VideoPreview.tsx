@@ -4,11 +4,13 @@ import { FC, useEffect, useState } from 'react'
 import ReactPlayer from 'react-player/file';
 import styles from './VideoPreview.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 
 interface VideoPreviewProps {
-	src: string | string[],
+	// src: string | string[],
+	src: string,
 	link?: string,
-	poster?: string,
+	poster: string,
 	// link?: {
 	// 	href: string,
 	// 	name: string
@@ -24,6 +26,7 @@ export const VideoPreview: FC<VideoPreviewProps> = ({
 }) => {
 	const [playing, setPlaying] = useState<boolean>(true)
 	const [mounted, setMounted] = useState<boolean>(false)
+	const [hidePoster, setHidePoster] = useState<boolean>(false)
 
 	const togglePlay = () => setPlaying(prev => !prev)
 
@@ -36,19 +39,33 @@ export const VideoPreview: FC<VideoPreviewProps> = ({
 	return (
 		<div className={styles.videoPreview}>
 			{
-				link ? 
+				(link && poster) ? 
 				<Link href={link}>
-					<div
-						// onClick={() => togglePlay()}
-					>
-						<ReactPlayer config={{ attributes: { poster } }} autoplay playsinline muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
+					<div className={styles.videoWrap}>
+						{ !hidePoster && <Image src={poster} alt='Poster image' fill/> }
+						{/* <Image src={poster} alt='Poster image' fill/>  */}
+						<div
+							className={styles.video}
+						>
+							<video src={src} autoPlay playsInline muted loop width={'100%'} height={'100%'} onPlay={() => setHidePoster(true)} />
+							{/* <ReactPlayer autoplay playsinline muted loop playing={playing} url={src} width={'100%'} height={'100%'} onPlay={() => setHidePoster(true)} /> */}
+						</div>
 					</div>
 				</Link>
 				:
-				<div
-					// onClick={() => togglePlay()}
-				>
-					<ReactPlayer config={{ attributes: { poster } }} autoplay playsinline muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
+				// <div
+				// 	// onClick={() => togglePlay()}
+				// >
+				// 	<ReactPlayer config={{ attributes: { poster } }} autoplay playsinline muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
+				// </div>
+				<div className={styles.videoWrap}>
+					{ !hidePoster && <Image src={poster} alt='Poster image' fill/> } 
+					<div
+						className={styles.video}
+					>
+						<video src={src} autoPlay playsInline muted loop width={'100%'} height={'100%'} onPlay={() => setHidePoster(true)} />
+						{/* <ReactPlayer autoplay playsinline muted loop playing={playing} url={src} width={'100%'} height={'100%'} onPlay={() => setHidePoster(true)} /> */}
+					</div>
 				</div>
 			}
 			{/* {
