@@ -12,10 +12,10 @@ export const NavBar: FC = () => {
 		<>
 			{/* { pathname !== '/' && <div className={styles.navbarspacer}/> } */}
 			<div className={styles.navbar}>
-				<Link href={pathname === '/work' ? '/' : '/work'}><div style={{
+				<Link href={pathname.includes('work') ? '/' : '/work'}><div style={{
 					textDecoration: pathname.includes('work') ? 'underline' : undefined
 				}}>Work</div></Link>
-				<Link href={pathname === '/info' ? '/' : '/info'}><div style={{
+				<Link href={pathname.includes('info') ? '/' : '/info'}><div style={{
 					textDecoration: pathname.includes('info') ? 'underline' : undefined
 				}}>Info</div></Link>
 			</div>
