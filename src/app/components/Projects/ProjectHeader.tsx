@@ -21,7 +21,7 @@ export const ProjectHeader: FC<ProjectHeaderProps> = ({
 				{ 
 					thumbnail && alt && 
 					<div>
-						<Image quality={100} src={thumbnail} height={70} alt={alt} width={70} style={{objectFit: 'contain'}}/>
+						<Image quality={65} src={thumbnail} height={70} alt={alt} width={70} style={{objectFit: 'contain'}}/>
 					</div>
 				}
 				<div>{ title }</div>
