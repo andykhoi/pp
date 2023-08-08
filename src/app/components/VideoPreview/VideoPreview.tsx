@@ -11,6 +11,7 @@ interface VideoPreviewProps {
 	src: string,
 	link?: string,
 	poster: string,
+	blurDataURL: string
 	// link?: {
 	// 	href: string,
 	// 	name: string
@@ -22,7 +23,8 @@ interface VideoPreviewProps {
 export const VideoPreview: FC<VideoPreviewProps> = ({
 	src,
 	link = null,
-	poster
+	poster,
+	blurDataURL
 }) => {
 	const [playing, setPlaying] = useState<boolean>(true)
 	const [mounted, setMounted] = useState<boolean>(false)
@@ -42,7 +44,7 @@ export const VideoPreview: FC<VideoPreviewProps> = ({
 				(link && poster) ? 
 				<Link href={link}>
 					<div className={styles.videoWrap}>
-						{ !hidePoster && <Image priority quality={50} src={poster} alt='Poster image' fill/> }
+						{ !hidePoster && <Image placeholder='blur' blurDataURL={blurDataURL} quality={50} src={poster} alt='Poster image' fill/> }
 						{/* <Image src={poster} alt='Poster image' fill/>  */}
 						<div
 							className={styles.video}
@@ -59,7 +61,7 @@ export const VideoPreview: FC<VideoPreviewProps> = ({
 				// 	<ReactPlayer config={{ attributes: { poster } }} autoplay playsinline muted loop playing={playing} url={src} width={'100%'} height={'100%'} />
 				// </div>
 				<div className={styles.videoWrap}>
-					{ !hidePoster && <Image src={poster} alt='Poster image' fill/> } 
+					{ !hidePoster && <Image placeholder='blur' blurDataURL={blurDataURL} quality={50} src={poster} alt='Poster image' fill/> } 
 					<div
 						className={styles.video}
 					>
