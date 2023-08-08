@@ -45,6 +45,12 @@ export const helvetica_neue = localFont({
 	variable: '--helvetica_neue'
 })
 
+// export const metadata = {
+// 	icons: {
+// 		icon: '/favicon.ico',
+// 	},
+// };
+
 export default function RootLayout({
   children,
 }: {
@@ -52,9 +58,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${helvetica_neue.variable} ${be_vietnam_pro.variable} ${bayon.variable}`}>
-      <body>
-		{ children }
-		<NavBar />
+		{/* <head>
+			<link rel="icon" href="/favicon.ico" />
+		</head> */}
+    	<body>
+			{ children }
+			<NavBar />
 		</body> 
     </html>
   )
