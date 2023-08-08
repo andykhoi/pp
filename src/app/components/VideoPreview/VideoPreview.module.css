@@ -10,7 +10,7 @@
 }
 
 .videoWrap {
-	/* display: grid; */
+	position: relative;
 }
 
 .togglePlay {

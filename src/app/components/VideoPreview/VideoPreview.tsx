@@ -42,7 +42,7 @@ export const VideoPreview: FC<VideoPreviewProps> = ({
 				(link && poster) ? 
 				<Link href={link}>
 					<div className={styles.videoWrap}>
-						{ !hidePoster && <Image src={poster} alt='Poster image' fill/> }
+						{ !hidePoster && <Image priority quality={50} src={poster} alt='Poster image' fill/> }
 						{/* <Image src={poster} alt='Poster image' fill/>  */}
 						<div
 							className={styles.video}
