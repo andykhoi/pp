@@ -8,11 +8,11 @@ export default function Mag() {
 	return (
 		<GridLayout>
 			<Spacer height='12px' breakpointHeight='28px'/>
-			<ProjectNav link='https://taikifriends.com' />
+			<ProjectNav back={'/work'} link='https://taikifriends.com' />
 			<Spacer height='20px' breakpointHeight='20px'/>
 			<ProjectHeader title='Taiki Friends' software={[ 'React', 'NextJS', 'Typescript']}/>
 			<Spacer height='32px' breakpointHeight='56px'/>
-			<VideoPreview src='/taiki.webm'/>
+			<VideoPreview src='/taiki.mp4'/>
 			<Spacer height='28px' breakpointHeight='32px' />
 			<Text>
 				A fun build for an NFT collection, inspired by lo-fi music. Designs by Nathan Pokpongkiat.

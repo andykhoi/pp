@@ -8,11 +8,11 @@ export default function Mag() {
 	return (
 		<GridLayout>
 			<Spacer height='12px' breakpointHeight='28px'/>
-			<ProjectNav link='https://ptpt.nrem.iastate.edu/#welcome' />
+			<ProjectNav back={'/work'} link='https://ptpt.nrem.iastate.edu/#welcome' />
 			<Spacer height='20px' breakpointHeight='20px'/>
 			<ProjectHeader title='Prairie Tree and Planting Tool' software={[ 'React', 'mapbox-gl-js', 'mapbox-gl-draw']}/>
 			<Spacer height='32px' breakpointHeight='56px'/>
-			<VideoPreview src='/ptpt.webm'/>
+			<VideoPreview src='/ptpt.mp4'/>
 			<Spacer height='28px' breakpointHeight='32px' />
 			<Text>
 				This planting tool is a cost estimator for tree rows and prairies of crops that integrates SSURGO data to identify the trees or crops best suited for the soil.

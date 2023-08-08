@@ -11,7 +11,7 @@ export default function Info() {
 		// 	<Text>I care a lot about making storytelling a better experience online. I believe through thoughtful design and giving power to new generations of storytellers this is possible. <Link href="/work/mag">Andy Mag</Link> is a collaborative magazine with this mission in mind.<br/><br/>I am always learning on the fly. Currently building a lot with React, Typescript, NextJS,  Figma, plus whatever other necessary tools come my way.<br /><br />*love meeting creatives, please reach out!</Text>
 		// </GridLayout>
 		<InfoGrid>
-			<Text>I care a lot about making storytelling a better experience online. I believe through thoughtful design and giving power to new generations of storytellers this is possible. <Link href="/work/mag">Andy Mag</Link> is a collaborative magazine with this mission in mind.<br/><br/>I am always learning on the fly. Currently building a lot with React, Typescript, NextJS,  Figma, plus whatever other necessary tools come my way.<br /><br />*love meeting creatives, please reach out!</Text>
+			<Text>I care a lot about making storytelling a better experience online. I believe through thoughtful design and giving power to new generations of storytellers this is possible. <Link href="/work/mag">Andy Mag</Link> is a collaborative magazine with this mission in mind.<br/><br/>I am always learning on the fly. Currently building a lot with React, Typescript, NextJS,  Figma, plus whatever other necessary tools come my way.<br /><br />*love meeting creatives, please reach <a href = "mailto: andyktran01@gmail.com">out</a>!</Text>
 		</InfoGrid>
 	)
 }
