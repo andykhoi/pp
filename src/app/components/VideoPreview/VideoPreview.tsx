@@ -45,7 +45,6 @@ export const VideoPreview: FC<VideoPreviewProps> = ({
 				<Link href={link}>
 					<div className={styles.videoWrap}>
 						{ !hidePoster && <Image placeholder='blur' blurDataURL={blurDataURL} quality={50} src={poster} alt='Poster image' fill/> }
-						{/* <Image src={poster} alt='Poster image' fill/>  */}
 						<div
 							className={styles.video}
 						>

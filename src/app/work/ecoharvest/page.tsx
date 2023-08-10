@@ -1,7 +1,7 @@
 import { ProjectNav, ProjectHeader} from '@/app/components/Projects'
 import { GridLayout } from '@/app/components/Grids'
 import { VideoPreview } from '@/app/components/VideoPreview'
-import { Spacer } from '@/app/components/Spacer.tsx'
+import { Spacer } from '@/app/components/Spacer'
 import { Text } from '@/app/components/Text'
 
 export default function Mag() {

@@ -1,6 +1,6 @@
 import { GridLayout } from '../components/Grids'
 import { VideoPreview } from '../components/VideoPreview'
-import { Spacer } from '../components/Spacer.tsx'
+import { Spacer } from '../components/Spacer'
 import { ProjectNav } from '../components/Projects'
 export default function Work() {
 	return (
