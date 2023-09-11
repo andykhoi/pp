@@ -1,3 +1,13 @@
 .info {
 	padding-top: 32px;
 }
+
+.links {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.links a {
+	color: black;
+}
