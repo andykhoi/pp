@@ -9,7 +9,7 @@ export default function Mag() {
 	return (
 		<GridLayout>
 			<Spacer height='12px' breakpointHeight='28px'/>
-			<ProjectNav back={'/for/onestepgps'} link='https://steepla.com/' />
+			<ProjectNav back={'/for/onestepgps'} />
 			<Spacer height='20px' breakpointHeight='20px'/>
 			<ProjectHeader thumbnail='/andymag.png' alt='Logo for Andy Mag' title='Fleeting But Not Fleeting Podcast Design' />
 			<Spacer height='32px' breakpointHeight='56px'/>
