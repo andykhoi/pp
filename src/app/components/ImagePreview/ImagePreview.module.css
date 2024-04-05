@@ -1,0 +1,16 @@
+.imagePreview {
+	/* margin-top: 12px; */
+	aspect-ratio: 1 / 1;
+	width: 100%;
+	grid-column: 2;
+	/* border-radius: 4px; */
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+}
+
+.imageWrap {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}

@@ -12,8 +12,8 @@ export const NavBar: FC = () => {
 		<>
 			{/* { pathname !== '/' && <div className={styles.navbarspacer}/> } */}
 			<div className={styles.navbar}>
-				<Link href={pathname.includes('work') ? '/' : '/work'}><div style={{
-					textDecoration: pathname.includes('work') ? 'underline' : undefined
+				<Link href={(pathname.includes('work') || pathname.includes('for')) ? '/' : '/work'}><div style={{
+					textDecoration: (pathname.includes('work') || pathname.includes('for')) ? 'underline' : undefined
 				}}>Work</div></Link>
 				<Link href={pathname.includes('info') ? '/' : '/info'}><div style={{
 					textDecoration: pathname.includes('info') ? 'underline' : undefined

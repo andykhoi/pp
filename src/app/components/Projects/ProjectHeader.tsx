@@ -4,14 +4,14 @@ import styles from './ProjectHeader.module.css'
 
 interface ProjectHeaderProps {
 	title: string
-	software: string[]
+	software?: string[]
 	thumbnail?: string
 	alt?: string
 }
 
 export const ProjectHeader: FC<ProjectHeaderProps> = ({
 	title,
-	software,
+	software = null,
 	thumbnail = null,
 	alt = null
 }) => {
@@ -21,12 +21,14 @@ export const ProjectHeader: FC<ProjectHeaderProps> = ({
 				{ 
 					thumbnail && alt && 
 					<div>
-						<Image priority quality={65} src={thumbnail} height={70} alt={alt} width={70} style={{objectFit: 'contain'}}/>
+						<Image priority quality={80} src={thumbnail} height={70} alt={alt} width={70} style={{objectFit: 'contain'}}/>
 					</div>
 				}
 				<div>{ title }</div>
 			</div>
-			<div className={styles.subtitle}>
+			{
+				software && 
+				<div className={styles.subtitle}>
 				<div>Software:</div>
 				<div className={styles.marquee}>
 					<div className={styles.fadeRight} />
@@ -53,6 +55,8 @@ export const ProjectHeader: FC<ProjectHeaderProps> = ({
 					</div>
 				</div>
 			</div>
+			}
+			
 		</div>
 	)
 }
