@@ -9,13 +9,13 @@ export default function Mag() {
 	return (
 		<GridLayout>
 			<Spacer height='12px' breakpointHeight='28px'/>
-			<ProjectNav back={'/for/wollberg-michelson'} />
+			<ProjectNav back={'/for/wollborg-michelson'} />
 			<Spacer height='20px' breakpointHeight='20px'/>
 			<ProjectHeader thumbnail='/cf_logo.png' alt='Logo for Compassion Fruit' title='Compassion Fruit App Design' />
 			<Spacer height='32px' breakpointHeight='56px'/>
 			<ImagePreview
 				src='/compassion_design.png'
-				// link='/for/wollberg-michelson/design-steep'
+				// link='/for/wollborg-michelson/design-steep'
 				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEbSURBVHgBXZDNSsNAAIS/7G63TSJNgtUWexB8AC9CQbx48h18QV9C7MGT5x48ClJaaKP405Qkzc+aRNuCH8xlmJ3ZXWsyeTKBp9G6zXL5gVSS0nLoewGfqzWraIbrHqIe7+8Y+oYw0sxeF5xfXJNV4YUxtPwe4fyZ1B6i+t4Z3aMu06TEOTml5QaMH8YUqwWj0RWXN7e4tsZKksSkSczL9J22KjkeDHgLQ3rBAVleYKdzhHZ+g1prNmmCkArLspBSUhPHMXa7RbLJUFmWNebXd4Tve1imYFMUjZfnObEAKSSCP2zHQSmFUHrXWNPRnWZFbQ0pBGVZ8h9Tvb7WPli11Kq8SvsD62jd/O1uOooi6vvWobphS2GZahp+ABBqdciARsaEAAAAAElFTkSuQmCC'
 			/>
 			<Spacer height='28px' breakpointHeight='32px' />
@@ -28,7 +28,7 @@ export default function Mag() {
 			</Text>
 			<ImagePreview
 				src='/cf_explorations2.png'
-				// link='/for/wollberg-michelson/design-steep'
+				// link='/for/wollborg-michelson/design-steep'
 				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEbSURBVHgBXZDNSsNAAIS/7G63TSJNgtUWexB8AC9CQbx48h18QV9C7MGT5x48ClJaaKP405Qkzc+aRNuCH8xlmJ3ZXWsyeTKBp9G6zXL5gVSS0nLoewGfqzWraIbrHqIe7+8Y+oYw0sxeF5xfXJNV4YUxtPwe4fyZ1B6i+t4Z3aMu06TEOTml5QaMH8YUqwWj0RWXN7e4tsZKksSkSczL9J22KjkeDHgLQ3rBAVleYKdzhHZ+g1prNmmCkArLspBSUhPHMXa7RbLJUFmWNebXd4Tve1imYFMUjZfnObEAKSSCP2zHQSmFUHrXWNPRnWZFbQ0pBGVZ8h9Tvb7WPli11Kq8SvsD62jd/O1uOooi6vvWobphS2GZahp+ABBqdciARsaEAAAAAElFTkSuQmCC'
 			/>
 			<Text>
@@ -37,7 +37,7 @@ export default function Mag() {
 			<Spacer height='12px' breakpointHeight='28px'/>
 			<ImagePreview
 				src='/cf_explorations.png'
-				// link='/for/wollberg-michelson/design-steep'
+				// link='/for/wollborg-michelson/design-steep'
 				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEbSURBVHgBXZDNSsNAAIS/7G63TSJNgtUWexB8AC9CQbx48h18QV9C7MGT5x48ClJaaKP405Qkzc+aRNuCH8xlmJ3ZXWsyeTKBp9G6zXL5gVSS0nLoewGfqzWraIbrHqIe7+8Y+oYw0sxeF5xfXJNV4YUxtPwe4fyZ1B6i+t4Z3aMu06TEOTml5QaMH8YUqwWj0RWXN7e4tsZKksSkSczL9J22KjkeDHgLQ3rBAVleYKdzhHZ+g1prNmmCkArLspBSUhPHMXa7RbLJUFmWNebXd4Tve1imYFMUjZfnObEAKSSCP2zHQSmFUHrXWNPRnWZFbQ0pBGVZ8h9Tvb7WPli11Kq8SvsD62jd/O1uOooi6vvWobphS2GZahp+ABBqdciARsaEAAAAAElFTkSuQmCC'
 			/>
 			<Text>
@@ -49,7 +49,7 @@ export default function Mag() {
 			</Text>
 			<ImagePreview
 				src='/cf_mobile.png'
-				// link='/for/wollberg-michelson/design-steep'
+				// link='/for/wollborg-michelson/design-steep'
 				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEbSURBVHgBXZDNSsNAAIS/7G63TSJNgtUWexB8AC9CQbx48h18QV9C7MGT5x48ClJaaKP405Qkzc+aRNuCH8xlmJ3ZXWsyeTKBp9G6zXL5gVSS0nLoewGfqzWraIbrHqIe7+8Y+oYw0sxeF5xfXJNV4YUxtPwe4fyZ1B6i+t4Z3aMu06TEOTml5QaMH8YUqwWj0RWXN7e4tsZKksSkSczL9J22KjkeDHgLQ3rBAVleYKdzhHZ+g1prNmmCkArLspBSUhPHMXa7RbLJUFmWNebXd4Tve1imYFMUjZfnObEAKSSCP2zHQSmFUHrXWNPRnWZFbQ0pBGVZ8h9Tvb7WPli11Kq8SvsD62jd/O1uOooi6vvWobphS2GZahp+ABBqdciARsaEAAAAAElFTkSuQmCC'
 			/>
 			<Text>
@@ -61,7 +61,7 @@ export default function Mag() {
 			</Text>
 			<ImagePreview
 				src='/cf_system.png'
-				// link='/for/wollberg-michelson/design-steep'
+				// link='/for/wollborg-michelson/design-steep'
 				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEbSURBVHgBXZDNSsNAAIS/7G63TSJNgtUWexB8AC9CQbx48h18QV9C7MGT5x48ClJaaKP405Qkzc+aRNuCH8xlmJ3ZXWsyeTKBp9G6zXL5gVSS0nLoewGfqzWraIbrHqIe7+8Y+oYw0sxeF5xfXJNV4YUxtPwe4fyZ1B6i+t4Z3aMu06TEOTml5QaMH8YUqwWj0RWXN7e4tsZKksSkSczL9J22KjkeDHgLQ3rBAVleYKdzhHZ+g1prNmmCkArLspBSUhPHMXa7RbLJUFmWNebXd4Tve1imYFMUjZfnObEAKSSCP2zHQSmFUHrXWNPRnWZFbQ0pBGVZ8h9Tvb7WPli11Kq8SvsD62jd/O1uOooi6vvWobphS2GZahp+ABBqdciARsaEAAAAAElFTkSuQmCC'
 			/>
 			<Text>

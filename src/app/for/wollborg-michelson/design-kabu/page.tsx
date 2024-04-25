@@ -9,13 +9,13 @@ export default function Mag() {
 	return (
 		<GridLayout>
 			<Spacer height='12px' breakpointHeight='28px'/>
-			<ProjectNav back={'/for/wollberg-michelson'}/>
+			<ProjectNav back={'/for/wollborg-michelson'}/>
 			<Spacer height='20px' breakpointHeight='20px'/>
 			<ProjectHeader thumbnail='/andymag.png' alt='Logo for Andy Mag' title='Kabu Article Design' />
 			<Spacer height='32px' breakpointHeight='56px'/>
 			<ImagePreview
 				src='/kabu_design-1.png'
-				// link='/for/wollberg-michelson/design-steep'
+				// link='/for/wollborg-michelson/design-steep'
 				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEdSURBVHgBTZDLSsNAGIW/JNNcTLUxVVNDpdKCiiC46zv43K5cKbgTXYiIlqI0aZo0tzETiXiY65kzP+f82vjsSqa9fXRNoxnNbBZoz718hbGNQIIwdPAGNkfHJxz0LVxT8hEVrTiOVnjDIcniDVEn30TLZ24m1wQ7LmUN85HGw8uSx8WG+fSS102CdjEL5a6VcepbPC0yLKExO7T4SiU7tk1PKzGEgxaGocyyDM/zEEJQVRVFUbBerzFNE7fvUlc1Qj0oKLEKUpYldV23nJSSJiJ5nqPzD7qut1XU3kGJ1f2PcRwH3/dbsmtR99EwDEQnHE/PGY0nyFqy/Hzn/u62tRDH8a+FIAikMu8N9hrTBaZtsU23xEnahlMVlfAHOzN0g0WsWKAAAAAASUVORK5CYII='
 			/>
 			<Spacer height='28px' breakpointHeight='32px' />
@@ -30,7 +30,7 @@ export default function Mag() {
 			</Text>
 			<ImagePreview
 				src='/kabu_wireframe1.png'
-				// link='/for/wollberg-michelson/design-steep'
+				// link='/for/wollborg-michelson/design-steep'
 				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEdSURBVHgBTZDLSsNAGIW/JNNcTLUxVVNDpdKCiiC46zv43K5cKbgTXYiIlqI0aZo0tzETiXiY65kzP+f82vjsSqa9fXRNoxnNbBZoz718hbGNQIIwdPAGNkfHJxz0LVxT8hEVrTiOVnjDIcniDVEn30TLZ24m1wQ7LmUN85HGw8uSx8WG+fSS102CdjEL5a6VcepbPC0yLKExO7T4SiU7tk1PKzGEgxaGocyyDM/zEEJQVRVFUbBerzFNE7fvUlc1Qj0oKLEKUpYldV23nJSSJiJ5nqPzD7qut1XU3kGJ1f2PcRwH3/dbsmtR99EwDEQnHE/PGY0nyFqy/Hzn/u62tRDH8a+FIAikMu8N9hrTBaZtsU23xEnahlMVlfAHOzN0g0WsWKAAAAAASUVORK5CYII='
 			/>
 			<Text>
@@ -42,7 +42,7 @@ export default function Mag() {
 			</Text>
 			<ImagePreview
 				src='/kabu_wireframes2.png'
-				// link='/for/wollberg-michelson/design-steep'
+				// link='/for/wollborg-michelson/design-steep'
 				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEdSURBVHgBTZDLSsNAGIW/JNNcTLUxVVNDpdKCiiC46zv43K5cKbgTXYiIlqI0aZo0tzETiXiY65kzP+f82vjsSqa9fXRNoxnNbBZoz718hbGNQIIwdPAGNkfHJxz0LVxT8hEVrTiOVnjDIcniDVEn30TLZ24m1wQ7LmUN85HGw8uSx8WG+fSS102CdjEL5a6VcepbPC0yLKExO7T4SiU7tk1PKzGEgxaGocyyDM/zEEJQVRVFUbBerzFNE7fvUlc1Qj0oKLEKUpYldV23nJSSJiJ5nqPzD7qut1XU3kGJ1f2PcRwH3/dbsmtR99EwDEQnHE/PGY0nyFqy/Hzn/u62tRDH8a+FIAikMu8N9hrTBaZtsU23xEnahlMVlfAHOzN0g0WsWKAAAAAASUVORK5CYII='
 			/>
 			<Text>
@@ -54,7 +54,7 @@ export default function Mag() {
 			</Text>
 			<ImagePreview
 				src='/kabu_hifi.png'
-				// link='/for/wollberg-michelson/design-steep'
+				// link='/for/wollborg-michelson/design-steep'
 				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEdSURBVHgBTZDLSsNAGIW/JNNcTLUxVVNDpdKCiiC46zv43K5cKbgTXYiIlqI0aZo0tzETiXiY65kzP+f82vjsSqa9fXRNoxnNbBZoz718hbGNQIIwdPAGNkfHJxz0LVxT8hEVrTiOVnjDIcniDVEn30TLZ24m1wQ7LmUN85HGw8uSx8WG+fSS102CdjEL5a6VcepbPC0yLKExO7T4SiU7tk1PKzGEgxaGocyyDM/zEEJQVRVFUbBerzFNE7fvUlc1Qj0oKLEKUpYldV23nJSSJiJ5nqPzD7qut1XU3kGJ1f2PcRwH3/dbsmtR99EwDEQnHE/PGY0nyFqy/Hzn/u62tRDH8a+FIAikMu8N9hrTBaZtsU23xEnahlMVlfAHOzN0g0WsWKAAAAAASUVORK5CYII='
 			/>
 			<Spacer height='100px'/>

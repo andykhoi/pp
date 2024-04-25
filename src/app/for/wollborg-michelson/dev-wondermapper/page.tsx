@@ -8,7 +8,7 @@ export default function Mag() {
 	return (
 		<GridLayout>
 			<Spacer height='12px' breakpointHeight='28px'/>
-			<ProjectNav back={'/for/wollberg-michelson'} link='https://maps.productions.wondermapper.com/wonder-california' />
+			<ProjectNav back={'/for/wollborg-michelson'} link='https://maps.productions.wondermapper.com/wonder-california' />
 			<Spacer height='20px' breakpointHeight='20px'/>
 			<ProjectHeader thumbnail='/wondermapper.png' alt='Wonder Mapper logo' title='Wonder Mapper' software={[ 'React', 'Sanity', 'mapbox-gl-js', 'Typescript']}/>
 			<Spacer height='32px' breakpointHeight='56px'/>
