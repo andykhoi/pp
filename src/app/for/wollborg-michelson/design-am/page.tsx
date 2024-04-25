@@ -9,13 +9,13 @@ export default function Mag() {
 	return (
 		<GridLayout>
 			<Spacer height='12px' breakpointHeight='28px'/>
-			<ProjectNav back={'/for/wollberg-michelson'} />
+			<ProjectNav back={'/for/wollborg-michelson'} />
 			<Spacer height='20px' breakpointHeight='20px'/>
 			<ProjectHeader thumbnail='/andymag.png' alt='Logo for Andy Mag' title='Magnolia Dashboard Design' />
 			<Spacer height='32px' breakpointHeight='56px'/>
 			<ImagePreview
 				src='/am_landing.png'
-				// link='/for/wollberg-michelson/design-steep'
+				// link='/for/wollborg-michelson/design-steep'
 				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFfSURBVHgBbYtLLythAIafqc8x0zYtrTo9MonjEiJ0oRsbcV0IIrGX+BMiYiVi6zdY2IvE1i9wjUvckmrVuEw0CJ0ZnRnTUQtWnjd5N+/7SMsLs36iUSXsWrhOCc1y8f0ygUAV+wfHjA73c3B4RKD09khdOEiPU8TInSFZBUpGgUzukpo/0JfupCkRroi+g6mfcNuUJBT3Ea8PtIdc0motrvdB4a2IUwaxtXfBODa2nq0ck3Skk6gRhea/UfQiRBtaCNVfI+Zn52hva+V/YwOG9c6LZRMNyhiOgxJ7JKJUUxsJIRQliKqqeFTsWJi7wjm3p9t41TK2XWJzbZXTrIZYWVpEdt75J6oYmJ4hNTiC/+GRy2d4eXqmv7cL7dVEdHanaIvLSF6Zmng9iXiMut4ROiQJc32D1NAYOkHE8PgEU5MT/IasKF9FTssjdg93yOuZn1Gq5Jvs1T3azTWmafAJHCmF65/FjlMAAAAASUVORK5CYII='
 			/>
 			<Spacer height='28px' breakpointHeight='32px' />
@@ -30,7 +30,7 @@ export default function Mag() {
 			</Text>
 			<ImagePreview
 				src='/am_wireframes1.png'
-				// link='/for/wollberg-michelson/design-steep'
+				// link='/for/wollborg-michelson/design-steep'
 				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFfSURBVHgBbYtLLythAIafqc8x0zYtrTo9MonjEiJ0oRsbcV0IIrGX+BMiYiVi6zdY2IvE1i9wjUvckmrVuEw0CJ0ZnRnTUQtWnjd5N+/7SMsLs36iUSXsWrhOCc1y8f0ygUAV+wfHjA73c3B4RKD09khdOEiPU8TInSFZBUpGgUzukpo/0JfupCkRroi+g6mfcNuUJBT3Ea8PtIdc0motrvdB4a2IUwaxtXfBODa2nq0ck3Skk6gRhea/UfQiRBtaCNVfI+Zn52hva+V/YwOG9c6LZRMNyhiOgxJ7JKJUUxsJIRQliKqqeFTsWJi7wjm3p9t41TK2XWJzbZXTrIZYWVpEdt75J6oYmJ4hNTiC/+GRy2d4eXqmv7cL7dVEdHanaIvLSF6Zmng9iXiMut4ROiQJc32D1NAYOkHE8PgEU5MT/IasKF9FTssjdg93yOuZn1Gq5Jvs1T3azTWmafAJHCmF65/FjlMAAAAASUVORK5CYII='
 			/>
 			<Text>
@@ -40,7 +40,7 @@ export default function Mag() {
 			</Text>
 			<ImagePreview
 				src='/am_userflows.png'
-				// link='/for/wollberg-michelson/design-steep'
+				// link='/for/wollborg-michelson/design-steep'
 				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEFSURBVHgBjZAxS4QAFMd/mpqo6FRDREPpeNDW7U1OfYYOmlrag76BHNFWQ1NDJCRtR40ROgTRFjdEkSDXEAqCYXqlQcRdQz94PN57f3j/94Q4jsf8A+l3EUUR18UMs4KM+S6ysbaCZWrfwrquEUWxLZIkYfiSIlew+CFylT7RPzygt9lDMgyDPM/RdR1VVXmNAtaLN1a3tllwHHb1HWzbRgrDsF3Z8OWX4e0N2tw8j4MBe90uruu2M1FRFKqqorHQ5KIcczcacR4EZFnG8dkF9w/PCJNXN8M0TbEsC9M0Odrv43Q600LP8zg9uWRp2cD3/Z/+lLAsyzYaNE37+48Nsiy3Mckn1Mxpy6GR4PsAAAAASUVORK5CYII='
 			/>
 			<Text>
@@ -54,7 +54,7 @@ export default function Mag() {
 			</Text>
 			<ImagePreview
 				src='/am_hifi.png'
-				// link='/for/wollberg-michelson/design-steep'
+				// link='/for/wollborg-michelson/design-steep'
 				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEFSURBVHgBjZAxS4QAFMd/mpqo6FRDREPpeNDW7U1OfYYOmlrag76BHNFWQ1NDJCRtR40ROgTRFjdEkSDXEAqCYXqlQcRdQz94PN57f3j/94Q4jsf8A+l3EUUR18UMs4KM+S6ysbaCZWrfwrquEUWxLZIkYfiSIlew+CFylT7RPzygt9lDMgyDPM/RdR1VVXmNAtaLN1a3tllwHHb1HWzbRgrDsF3Z8OWX4e0N2tw8j4MBe90uruu2M1FRFKqqorHQ5KIcczcacR4EZFnG8dkF9w/PCJNXN8M0TbEsC9M0Odrv43Q600LP8zg9uWRp2cD3/Z/+lLAsyzYaNE37+48Nsiy3Mckn1Mxpy6GR4PsAAAAASUVORK5CYII='
 			/>
 			<Text>

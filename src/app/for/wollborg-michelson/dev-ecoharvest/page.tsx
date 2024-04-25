@@ -8,7 +8,7 @@ export default function Mag() {
 	return (
 		<GridLayout>
 			<Spacer height='12px' breakpointHeight='28px'/>
-			<ProjectNav back={'/for/wollberg-michelson'} link='https://ecoharvest.app' />
+			<ProjectNav back={'/for/wollborg-michelson'} link='https://ecoharvest.app' />
 			<Spacer height='20px' breakpointHeight='20px'/>
 			<ProjectHeader title='Ecoharvest' thumbnail='/ecoharvest.png' alt='Logo for Ecoharvest' software={[ 'React', 'NextJS', 'Typescript', 'Hasura', 'GraphQL', 'Mapbox', 'Clerk']}/>
 			<Spacer height='32px' breakpointHeight='56px'/>

@@ -9,13 +9,13 @@ export default function Mag() {
 	return (
 		<GridLayout>
 			<Spacer height='12px' breakpointHeight='28px'/>
-			<ProjectNav back={'/for/wollberg-michelson'} />
+			<ProjectNav back={'/for/wollborg-michelson'} />
 			<Spacer height='20px' breakpointHeight='20px'/>
 			<ProjectHeader thumbnail='/andymag.png' alt='Logo for Andy Mag' title='Fleeting But Not Fleeting Podcast Design' />
 			<Spacer height='32px' breakpointHeight='56px'/>
 			<ImagePreview
 				src='/dafna_design.png'
-				// link='/for/wollberg-michelson/design-steep'
+				// link='/for/wollborg-michelson/design-steep'
 				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEaSURBVHgBTY9LS8NAFIW/TCZpxyClm7gQQQQVXCiF9m/qzl8iuPexE9xIQJR2J2iMUEmaZvIYJ+kD72bmHs7jHufy6trc3D4wcH2GfcO3/iLVfUAyHl/wFj1xPpogoyji8f4OKTx2leEwMDx/ZuAGDIcD5tE7cbiHwDE4qqZsFhwdDBgdn3KyHyAdjYvmVy6wHkhTF+h5gnAcXqcp09mUn3xJU4MjKl5mH5xNcoTWhQU1Svk0wmdpfVR/h6oqKfWSMAzp9XqIurbS9SilLKEiy7Itluc5ruvaausxxhDHcfdvmqZ7W1FRFB1ZbIgt6HneKkas4NbJ9/1OuHUMAttUSjanpGnaCVq8JYv/0Y5t3kaVZbk9IUmSbv8D/iOEy+3SDZoAAAAASUVORK5CYII='
 			/>
 			<Spacer height='28px' breakpointHeight='32px' />
@@ -28,7 +28,7 @@ export default function Mag() {
 			</Text>
 			<ImagePreview
 				src='/dafna_wireframe1.png'
-				// link='/for/wollberg-michelson/design-steep'
+				// link='/for/wollborg-michelson/design-steep'
 				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEaSURBVHgBTY9LS8NAFIW/TCZpxyClm7gQQQQVXCiF9m/qzl8iuPexE9xIQJR2J2iMUEmaZvIYJ+kD72bmHs7jHufy6trc3D4wcH2GfcO3/iLVfUAyHl/wFj1xPpogoyji8f4OKTx2leEwMDx/ZuAGDIcD5tE7cbiHwDE4qqZsFhwdDBgdn3KyHyAdjYvmVy6wHkhTF+h5gnAcXqcp09mUn3xJU4MjKl5mH5xNcoTWhQU1Svk0wmdpfVR/h6oqKfWSMAzp9XqIurbS9SilLKEiy7Itluc5ruvaausxxhDHcfdvmqZ7W1FRFB1ZbIgt6HneKkas4NbJ9/1OuHUMAttUSjanpGnaCVq8JYv/0Y5t3kaVZbk9IUmSbv8D/iOEy+3SDZoAAAAASUVORK5CYII='
 			/>
 			<Text>
@@ -40,7 +40,7 @@ export default function Mag() {
 			</Text>
 			<ImagePreview
 				src='/dafna_userflow.png'
-				// link='/for/wollberg-michelson/design-steep'
+				// link='/for/wollborg-michelson/design-steep'
 				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEaSURBVHgBTY9LS8NAFIW/TCZpxyClm7gQQQQVXCiF9m/qzl8iuPexE9xIQJR2J2iMUEmaZvIYJ+kD72bmHs7jHufy6trc3D4wcH2GfcO3/iLVfUAyHl/wFj1xPpogoyji8f4OKTx2leEwMDx/ZuAGDIcD5tE7cbiHwDE4qqZsFhwdDBgdn3KyHyAdjYvmVy6wHkhTF+h5gnAcXqcp09mUn3xJU4MjKl5mH5xNcoTWhQU1Svk0wmdpfVR/h6oqKfWSMAzp9XqIurbS9SilLKEiy7Itluc5ruvaausxxhDHcfdvmqZ7W1FRFB1ZbIgt6HneKkas4NbJ9/1OuHUMAttUSjanpGnaCVq8JYv/0Y5t3kaVZbk9IUmSbv8D/iOEy+3SDZoAAAAASUVORK5CYII='
 			/>
 			<Text>
@@ -52,7 +52,7 @@ export default function Mag() {
 			</Text>
 			<ImagePreview
 				src='/dafna_hifi.png'
-				// link='/for/wollberg-michelson/design-steep'
+				// link='/for/wollborg-michelson/design-steep'
 				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEaSURBVHgBTY9LS8NAFIW/TCZpxyClm7gQQQQVXCiF9m/qzl8iuPexE9xIQJR2J2iMUEmaZvIYJ+kD72bmHs7jHufy6trc3D4wcH2GfcO3/iLVfUAyHl/wFj1xPpogoyji8f4OKTx2leEwMDx/ZuAGDIcD5tE7cbiHwDE4qqZsFhwdDBgdn3KyHyAdjYvmVy6wHkhTF+h5gnAcXqcp09mUn3xJU4MjKl5mH5xNcoTWhQU1Svk0wmdpfVR/h6oqKfWSMAzp9XqIurbS9SilLKEiy7Itluc5ruvaausxxhDHcfdvmqZ7W1FRFB1ZbIgt6HneKkas4NbJ9/1OuHUMAttUSjanpGnaCVq8JYv/0Y5t3kaVZbk9IUmSbv8D/iOEy+3SDZoAAAAASUVORK5CYII='
 			/>
 			<Text>

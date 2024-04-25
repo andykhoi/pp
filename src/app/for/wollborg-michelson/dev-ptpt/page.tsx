@@ -8,7 +8,7 @@ export default function Mag() {
 	return (
 		<GridLayout>
 			<Spacer height='12px' breakpointHeight='28px'/>
-			<ProjectNav back='/for/wollberg-michelson' link='https://ptpt.nrem.iastate.edu/#welcome' />
+			<ProjectNav back='/for/wollborg-michelson' link='https://ptpt.nrem.iastate.edu/#welcome' />
 			<Spacer height='20px' breakpointHeight='20px'/>
 			<ProjectHeader title='Prairie Tree and Planting Tool' software={[ 'React', 'mapbox-gl-js', 'mapbox-gl-draw']}/>
 			<Spacer height='32px' breakpointHeight='56px'/>

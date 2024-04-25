@@ -8,7 +8,7 @@ export default function Mag() {
 	return (
 		<GridLayout>
 			<Spacer height='12px' breakpointHeight='28px'/>
-			<ProjectNav back={'/for/wollberg-michelson'} link='https://steepla.com/' />
+			<ProjectNav back={'/for/wollborg-michelson'} link='https://steepla.com/' />
 			<Spacer height='20px' breakpointHeight='20px'/>
 			<ProjectHeader thumbnail='/steep_logo.png' alt='Logo for Steep LA' title='Steep LA' software={[ 'Figma','Shopify Liquid', 'JavaScript', 'HTML', 'CSS']}/>
 			<Spacer height='32px' breakpointHeight='56px'/>

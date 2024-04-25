@@ -8,7 +8,7 @@ export default function Mag() {
 	return (
 		<GridLayout>
 			<Spacer height='12px' breakpointHeight='28px'/>
-			<ProjectNav back={'/for/wollberg-michelson'} link='https://inclusionbycsi.com/' />
+			<ProjectNav back={'/for/wollborg-michelson'} link='https://inclusionbycsi.com/' />
 			<Spacer height='20px' breakpointHeight='20px'/>
 			<ProjectHeader thumbnail='/lionsgate_logo-2.png' alt='Logo for Lionsgate CSI' title='Lionsgate' software={[ 'Webflow','React', 'JavaScript', 'AWS (Lambda + API Gateway)', 'Typeform']}/>
 			<Spacer height='32px' breakpointHeight='56px'/>
