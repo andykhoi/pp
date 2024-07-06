@@ -8,7 +8,7 @@ export default function Mag() {
 	return (
 		<GridLayout>
 			<Spacer height='12px' breakpointHeight='28px'/>
-			<ProjectNav back={'/work'} link='https://inclusionbycsi.com/' />
+			<ProjectNav back={'/for/xona'} link='https://inclusionbycsi.com/' />
 			<Spacer height='20px' breakpointHeight='20px'/>
 			<ProjectHeader thumbnail='/lionsgate_logo-2.png' alt='Logo for Lionsgate CSI' title='Lionsgate' software={[ 'Webflow','React', 'JavaScript', 'AWS (Lambda + API Gateway)', 'Typeform']}/>
 			<Spacer height='32px' breakpointHeight='56px'/>
@@ -19,9 +19,9 @@ export default function Mag() {
 			/>
 			<Spacer height='28px' breakpointHeight='32px' />
 			<Text>
-				<h3>Design:</h3>
-				<p></p>
-				<h3>Development:</h3>
+				<b>I was contracted by Lionsgate to build an inclusivity quiz for scriptwriters.</b>
+				<br></br><br></br>
+				This site was built on webflow utilizing a script to inject a react bundle that was hosted in an AWS S3 bucket. The React components utiized typeform&apos;s Responses API to retrieve response data and visualize it to give quiz takers a grade on their script.
 			</Text>
 			<Spacer height='100px'/>
 		</GridLayout>
