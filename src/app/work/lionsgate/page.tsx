@@ -20,6 +20,7 @@ export default function Mag() {
 			<Spacer height='28px' breakpointHeight='32px' />
 			<Text>
 				<h3>Design:</h3>
+				<p></p>
 				<h3>Development:</h3>
 			</Text>
 			<Spacer height='100px'/>
