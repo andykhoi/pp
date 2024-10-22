@@ -8,20 +8,37 @@ export default function Mag() {
 	return (
 		<GridLayout>
 			<Spacer height='12px' breakpointHeight='28px'/>
-			<ProjectNav back={'/work'} link='https://inclusionbycsi.com/' />
+			<ProjectNav back={'/work'} link='https://getstoryspark.com/' />
 			<Spacer height='20px' breakpointHeight='20px'/>
-			<ProjectHeader thumbnail='/lionsgate_logo-2.png' alt='Logo for Lionsgate CSI' title='Lionsgate' software={[ 'Webflow','React', 'JavaScript', 'AWS (Lambda + API Gateway)', 'Typeform']}/>
+			<ProjectHeader thumbnail='/storyspark-logo.png' alt='Logo for Story Spark' title='Story Spark by Lionsgate' software={[ 'Webflow','React', 'JavaScript', 'AWS (Lambda + API Gateway)', 'Typeform']}/>
 			<Spacer height='32px' breakpointHeight='56px'/>
 			<VideoPreview 
-				blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB/SURBVHgBrVAxDgIgDLwKwYEXuPFDvsRDGPgKJIyOMqC0CtFBEw2Dl9zSXi+9IwCCDRywCR1jxBgDxpg1YGaICJRS4OsZfLtAH0+g3rs8iNYarLUgonU0hW+OtVaEEJbT5/IF7z2QUpJnoK+cmq0w82ddSoFz7qcw5wzCv3u8A/Z+PUG0azWIAAAAAElFTkSuQmCC'
+				blurDataURL='data:image/png;base64,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'
 				src='/lionsgate.mp4'
-				poster='/lionsgate_poster.png'
+				poster='/storyspark-poster.png'
+				// poster='/lionsgate_poster.png'
 			/>
 			<Spacer height='28px' breakpointHeight='32px' />
 			<Text>
-				<h3>Design:</h3>
-				<p></p>
-				<h3>Development:</h3>
+				Story Spark is a tool that delivers thoughtful insights to kickstart intentional conversations about creating more inclusive and compelling stories.
+				<br></br>
+				<br></br>
+				My responsibilities for this project:
+				<ul>
+					<li>
+						Building 7 custom React components visualizing data from Typeform API
+					</li>
+					<li>
+					Deployed Github Actions CI/CD workflow allowing automatic lambda deployments, s3 assets uploads, and React build
+					</li>
+					<li>
+					Developed application architecture that ensures ease of customizability for future product iteration
+					</li>
+				</ul>
+				<br></br>
+				Team: 
+				<br></br>
+				Manal Abuzeid, Me
 			</Text>
 			<Spacer height='100px'/>
 		</GridLayout>
